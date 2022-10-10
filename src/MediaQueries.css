@@ -1,0 +1,100 @@
+
+@media(max-width:480px){
+     body{
+        background:#ccc;
+     }
+    
+        .nav_grid > .searchInput_Container input{
+            width: 90%;
+            padding: 10px;
+            outline: none;
+            border-radius:5px;
+            margin-left:5%;
+            height:40%;
+            margin-top:1.2%;
+            background:rgb(250, 244, 244);
+            border:1px solid #ccc;
+           
+    
+      
+    }
+    .mynav img{
+        margin-left:10%;
+        margin-top:-1%;
+        position:absolute;
+    }
+    .nav_grid img{
+        height:66px;
+        width:70px;
+    }
+    .sectionone{
+
+        height:60vh;
+        width:100vw;
+        margin-top:-1%;
+        display:none;
+    }
+    .sectionone video{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0; 
+         bottom: 0;
+        z-index: -1;
+    }
+    .templateContainer .template_Container{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        align-items: center;
+        justify-content: center;
+  margin-top:17%;
+        background:#111;
+    }
+    .templateContainer .template_Container .template{
+        background-color: rgb(228, 222, 222);
+        margin: 30px;
+        padding: 0px 20px;
+       width:70%;
+        height:200px;
+        border-radius:1px;
+       
+        
+    }
+    .templateContainer .template_Container .template img{
+        height:90px;
+      margin-left:-7%;
+       width:130px;
+       height:170px;
+        
+    }
+    .templateContainer  button{
+        border-radius: 1px;
+        width:53px;
+        background:white;
+        color:#000000;
+        height:31px;
+        margin-left:47%;
+        
+        border:1px solid #ccc;
+       margin-top:10%;
+       
+        position:absolute;
+    }
+    .template h3{
+        font-size:8pt;
+        text-align:right;
+        margin-top:-50%;
+        
+    }
+    .template p{
+        font-size:8pt;
+       text-align:right;
+    }
+    
+}
+@media(min-width:768px){
+    
+}

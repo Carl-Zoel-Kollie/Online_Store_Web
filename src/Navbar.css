@@ -1,0 +1,25 @@
+.mynav{
+    width:100%;
+    top:90%;
+    position:fixed;
+    left:0;
+    right:0;
+    height:15vh;
+    background:transparent;
+}
+.mynav img{
+    margin-left:94%;
+    margin-top:-1%;
+    
+}
+ .cart span:nth-child(3){
+    background:red;
+    border-radius:5px;
+    color:white;
+    font-weight:bold;
+    margin-top:-15%;
+
+}
+.shifter img{
+    margin-left:1000px;
+}

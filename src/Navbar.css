@@ -4,12 +4,13 @@
     position:fixed;
     left:0;
     right:0;
-    height:15vh;
+    height:20vh;
     background:transparent;
 }
 .mynav img{
     margin-left:94%;
     margin-top:-1%;
+    width:50px !important;
     
 }
  .cart span:nth-child(3){
@@ -22,4 +23,9 @@
 }
 .shifter img{
     margin-left:1000px;
+}
+@media(max-width:900px){
+    .mynav{
+        display:none;
+    }
 }

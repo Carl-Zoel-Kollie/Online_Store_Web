@@ -10,12 +10,19 @@ function Homescreen({handleClick }) {
   const [searchTerm, setSearchTerm] = useState("");
   return (
     <>
-    
+    <div className="mobileview">
+    <h1>This Online Store Web App can only be viewed on a laptop. Reload the link on your laptop to interact with the app. 
+            Follow the social media pages below to get notified when the mobile version of this web app is deployed.
+           <br></br>
+            
+            <a  href="https://linktr.ee/Carl_Zoel_Kollie"><h6>Link to all CZK Code social Media pages</h6></a>
+            </h1>
+    </div>
       <div className="templateContainer">
         <div className="nav_grid">
           
         <div className="logohere" >
-          <img src="storelogo.jpg" width={120} height={82}/>
+          <img src="storelogo.jpg" width={90} height={62}/>
          </div>
         <div className="searchInput_Container">
           

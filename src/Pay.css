@@ -1,11 +1,11 @@
 *{
     margin:0;
 }
-P.Pay body{
-    background:#ccc;
-}
+/* .Pay body{
+    background:#ccc !important;
+} */
 .makepayment{
-    background:white;
+    background:#ccd;
     width:40%;
     height:100%;
     margin-left:32%;
@@ -37,7 +37,7 @@ P.Pay body{
     background:rgb(245, 240, 240);
     border-radius:12px;
     height:50px;
-    margin-top:5%;
+    margin-top:10%;
     border:1px solid rgb(245, 240, 240);
 }
 .sectionthree{

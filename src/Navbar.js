@@ -11,7 +11,7 @@ const Navbar=({setShow, size })=>{
           <div className="cart" onClick={()=>setShow(false)}>
            
           <span >
-          <img src="shopcart.svg" width={70} className="shifter"  />
+          <img src="shopcart.svg" width={50} className="shifter"  />
             </span>
             
             <span>{size}</span>
